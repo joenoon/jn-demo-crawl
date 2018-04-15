@@ -20,7 +20,7 @@
 * Not a durable or feature rich queue
 * Fetched urls are cached indefintely to avoid pegging external sites
 
-## Todo
+## Todo / Improvements
 
 * The status response could contain a `status: "complete|pending"`
   but is not part of the spec, so not implemented. Checking `pending === 0` is
@@ -45,6 +45,8 @@ Run the demo (src/demo.js):
 ```
 docker-compose run api yarn run demo
 ```
+
+Here is the console output from the demo: [Demo output](DEMO_OUTPUT.txt)
 
 ## SPEC
 
