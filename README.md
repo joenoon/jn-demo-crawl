@@ -1,5 +1,7 @@
 # URL image crawler
 
+### View [Demo Output](DEMO_OUTPUT.txt)
+
 ## How it works
 
 1.  User POSTs to /jobs
@@ -45,8 +47,6 @@ Run the demo (src/demo.js):
 ```
 docker-compose run api yarn run demo
 ```
-
-Here is the console output from the demo: [Demo output](DEMO_OUTPUT.txt)
 
 ## SPEC
 
