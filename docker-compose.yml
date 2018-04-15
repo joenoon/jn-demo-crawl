@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+  redis:
+    image: redis
+
+  api:
+    build: .
+    volumes:
+      - .:/opt/app:delegated
+      - notused:/opt/app/node_modules
+    ports:
+      - "4000:8080"
+    links:
+      - redis
+
+volumes:
+    notused:
